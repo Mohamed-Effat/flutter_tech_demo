@@ -36,7 +36,6 @@ class EventScreen extends StatelessWidget {
                   MakerInfoWidget(snapshot.data),
                   DetailsWidget(snapshot.data),
                   PaymentWidget(snapshot.data.reserveTypes),
-                  PaymentWidget(snapshot.data.reserveTypes),
                   FlatButton(
                     onPressed: (){},
                     child: Text("قم بالحجز الأن"),
