@@ -1,16 +1,21 @@
-# inovolachallengeevents
+This is a flutter mini-project initially built as a hiring task for [inovola.com](https://inovola.com).
 
-Inovola hiring challenge based on their skillzy app.
+This flutter app covers alot of flutter technologies such as:
 
-## Getting Started
+- stateless/stateful widgets.
+- proper constrained UI design that allows the app to work seamlessly on different screen sizes.
+- global theme values for multiple widgets.
+- streams with rxjava and `StreamBuilder`.
+- BloC pattern with provider and InheritedWidget.
+- repository pattern with multiple sources and local caches.
+- code is properly structured in dart packages.
+- proper date and time formatting using Intl package.
 
-This project is a starting point for a Flutter application.
+popular technologies that are NOT implemented in this project:
+- firebase.
+- handling of multiple screen routing.
+- custom animations.
 
-A few resources to get you started if this is your first Flutter project:
+TODO:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- implement a local cache using sqflite and use it in the `repository.dart`.
