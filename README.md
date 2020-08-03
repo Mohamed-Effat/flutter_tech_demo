@@ -1,5 +1,4 @@
-This is a flutter mini-project initially built as a hiring task for [inovola.com](https://inovola.com).
-
+This is a flutter mini-project initially built as a tech demo
 This flutter app covers alot of flutter technologies such as:
 
 - stateless/stateful widgets.
